@@ -1,7 +1,13 @@
 const elvenShieldRecipe={
     leatherStripes:2,
     ironIngot:1,
-    refineMoonstone:4
+    refinedMoonstone:5
 }
 
-console.log(elvenShieldRecipe)
+const elvenGauntletsRecipe={
+    ...elvenShieldRecipe,
+    leather:1,
+    refinedMoonstone:4
+}
+console.log(elvenShieldRecipe);
+console.log(elvenGauntletsRecipe);
